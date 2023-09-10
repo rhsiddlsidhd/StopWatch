@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  border: 1px solid white;
+  width: 80%;
+  min-width: 320px;
+  max-width: 640px;
+  text-align: center;
+  margin: 50px auto;
+  border-radius: 25px;
+}
+
+h2 {
+  margin-top: 5px;
+}
+
+span {
+  display: inline-block;
+  color: red;
+  margin: 5px;
+}
+
+button {
+  width: 100px;
+  padding: 6px;
+  margin: 10px;
+  color: beige;
+  background-color: gray;
+}
+
+button:hover {
+  color: gray;
+  background-color: beige;
+}
